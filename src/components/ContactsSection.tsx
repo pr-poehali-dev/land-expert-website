@@ -41,20 +41,20 @@ const ContactsSection = () => {
                 {
                   icon: "Phone",
                   label: "Телефон",
-                  value: "+7 (900) 123-45-67",
-                  sub: "Пн–Пт, 9:00–18:00",
+                  value: "+7 (922) 661-66-11",
+                  sub: "Работаю по всей России",
                 },
                 {
                   icon: "Mail",
                   label: "Email",
-                  value: "elena@zemexpert.ru",
+                  value: "Kalininaanna86@yandex.ru",
                   sub: "Ответ в течение 24 часов",
                 },
                 {
-                  icon: "MapPin",
-                  label: "Адрес",
-                  value: "г. Москва, ул. Садовая, 15",
-                  sub: "Приём по предварительной записи",
+                  icon: "Globe",
+                  label: "Формат работы",
+                  value: "Онлайн или письменный формат",
+                  sub: "Большинство вопросов решается дистанционно",
                 },
               ].map((contact) => (
                 <div key={contact.label} className="flex items-start gap-4">

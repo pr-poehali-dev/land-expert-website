@@ -13,7 +13,7 @@ const Footer = () => {
               <div className="font-semibold" style={{ fontFamily: "'Playfair Display', serif" }}>
                 Земельный эксперт
               </div>
-              <div className="text-xs opacity-60">Елена Смирнова · Кадастровый инженер</div>
+              <div className="text-xs opacity-60">Калинина Анна Владимировна · Земельный эксперт</div>
             </div>
           </div>
 

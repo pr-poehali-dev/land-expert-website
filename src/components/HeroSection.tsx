@@ -23,21 +23,21 @@ const HeroSection = () => {
         <div className="space-y-8">
           <div className="inline-flex items-center gap-2 bg-secondary/80 rounded-full px-4 py-2 text-sm text-secondary-foreground">
             <Icon name="Shield" size={14} />
-            <span>Официальный кадастровый инженер</span>
+            <span>Земельный эксперт с юридическим образованием</span>
           </div>
 
           <h1
             className="text-5xl md:text-6xl font-bold leading-tight text-foreground"
             style={{ fontFamily: "'Playfair Display', serif" }}
           >
-            Решаю земельные
-            <span className="block text-primary">вопросы</span>
-            с уверенностью
+            Помогу оформить
+            <span className="block text-primary">участок законно</span>
+            и без рисков
           </h1>
 
           <p className="text-lg text-muted-foreground leading-relaxed max-w-lg">
-            Помогаю оформить, разграничить и защитить вашу землю. Более 10 лет опыта
-            в кадастровых работах, межевании и земельных спорах.
+            Меня зовут Анна. Помогаю разобраться с землёй и оформить участок —
+            от первого вопроса до результата. Работаю по всей России.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4">
