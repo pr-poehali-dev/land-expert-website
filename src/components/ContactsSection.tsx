@@ -73,18 +73,24 @@ const ContactsSection = () => {
             <div className="border-t border-border pt-6">
               <p className="text-sm text-muted-foreground mb-4">Также доступна в мессенджерах:</p>
               <div className="flex gap-3">
-                {[
-                  { icon: "MessageCircle", label: "WhatsApp" },
-                  { icon: "Send", label: "Telegram" },
-                ].map((messenger) => (
-                  <button
-                    key={messenger.label}
-                    className="flex items-center gap-2 bg-secondary hover:bg-accent text-secondary-foreground rounded-xl px-4 py-2.5 text-sm font-medium transition-colors"
-                  >
-                    <Icon name={messenger.icon} size={16} />
-                    {messenger.label}
-                  </button>
-                ))}
+                <a
+                  href="https://wa.me/79226616611"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center gap-2 bg-secondary hover:bg-accent text-secondary-foreground rounded-xl px-4 py-2.5 text-sm font-medium transition-colors"
+                >
+                  <Icon name="MessageCircle" size={16} />
+                  WhatsApp
+                </a>
+                <a
+                  href="https://t.me/79226616611"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center gap-2 bg-secondary hover:bg-accent text-secondary-foreground rounded-xl px-4 py-2.5 text-sm font-medium transition-colors"
+                >
+                  <Icon name="Send" size={16} />
+                  Telegram
+                </a>
               </div>
             </div>
 
