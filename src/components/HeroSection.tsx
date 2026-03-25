@@ -80,9 +80,9 @@ const HeroSection = () => {
           <div className="relative">
             <div className="organic-shape-2 overflow-hidden w-80 h-80 shadow-2xl">
               <img
-                src="https://cdn.poehali.dev/projects/ebc3b386-b5d4-4a32-8e3c-5ed0d532cccd/files/69360811-be23-44f1-9dce-96cebf57a301.jpg"
-                alt="Земельный эксперт"
-                className="w-full h-full object-cover"
+                src="https://cdn.poehali.dev/projects/ebc3b386-b5d4-4a32-8e3c-5ed0d532cccd/bucket/ce44ebf6-b727-4fd9-a950-78e56bd7472c.png"
+                alt="Калинина Анна Владимировна"
+                className="w-full h-full object-cover object-top"
               />
             </div>
             <div className="absolute -bottom-4 -right-4 bg-card border border-border rounded-2xl p-4 shadow-lg">
