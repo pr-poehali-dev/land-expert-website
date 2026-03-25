@@ -63,8 +63,8 @@ const HeroSection = () => {
           <div className="flex items-center gap-8 pt-4">
             {[
               { value: "500+", label: "Решённых дел" },
-              { value: "10 лет", label: "Опыта работы" },
               { value: "98%", label: "Довольных клиентов" },
+              { value: "Вся РФ", label: "Работаю дистанционно" },
             ].map((stat) => (
               <div key={stat.label} className="text-center">
                 <div className="text-2xl font-bold text-primary" style={{ fontFamily: "'Playfair Display', serif" }}>
