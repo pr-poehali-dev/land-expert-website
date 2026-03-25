@@ -49,14 +49,15 @@ const HeroSection = () => {
               Получить консультацию
               <Icon name="ArrowRight" size={18} />
             </Button>
-            <Button
-              size="lg"
-              variant="outline"
-              onClick={() => scrollTo("services")}
-              className="border-primary text-primary hover:bg-primary/10"
+            <a
+              href="https://t.me/79226616611"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 border border-primary text-primary hover:bg-primary/10 rounded-md px-6 py-3 text-base font-medium transition-colors"
             >
-              Узнать об услугах
-            </Button>
+              <Icon name="Send" size={18} />
+              Написать в Telegram
+            </a>
           </div>
 
           <div className="flex items-center gap-8 pt-4">
